@@ -12,4 +12,6 @@ run?
 ![running Rabbit MQ](/assets/runconsole.png)
 The picture above demonstrates the process initiated by the publisher. Publisher will send data to the message queue. Subscribers linked to this message queue will then retrieve the data and display it in the console based on the implemented code.
 
+![running Rabbit MQ](/assets/spike.png)
+From the massage rates graph it can be seen that every time the publisher is run, there will be an increase in the message rate on rabbitMQ.
 
